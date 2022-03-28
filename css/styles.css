@@ -148,16 +148,3 @@ color: #e7e8d1;
   color: #b85042;
 }
 
-////////////////////* Projects Page *///////////////////////
-
-/* Projects Navbar */
-.navbar-brand{
-font-family: 'Red Hat Display';
-font-weight: bold;
-font-size: 2rem;
-color: #5F7464;
-padding: 8%;
-}
-.navbar-brand:hover{
-  color: #5F7464;
-}
