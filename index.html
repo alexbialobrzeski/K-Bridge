@@ -15,6 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/8e01626e67.js" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
@@ -23,8 +26,8 @@
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">K-Bridge Development, Corp.</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand home-navbar-brand" href="#">K-Bridge Development, Corp.</a>
+          <button class="navbar-toggler toggler-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -33,13 +36,13 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">
                   Services
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Site Investigations</a></li>
-                  <li><a class="dropdown-item" href="#">Preconstruction Services</a></li>
-                  <li><a class="dropdown-item" href="#">Construction Project Management</a></li>
+                  <li><a class="dropdown-item" href="services.html">Site Investigations</a></li>
+                  <li><a class="dropdown-item" href="services.html">Preconstruction Services</a></li>
+                  <li><a class="dropdown-item" href="services.html">Construction Project Management</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -109,28 +112,57 @@
       </div>
     </section>
 
+
+<!-- Services Section -->
+
+
     <section id="services">
       <h2>What we offer</h2>
       <div class="row service-section">
         <div class="col-lg-4 service-card">
-          <h3>Site Investigations</h3>
+          <i class="fa-solid fa-magnifying-glass icon fa-4x"></i>
+          <h3 class="h3-service">Site Investigations</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
         <div class="col-lg-4 service-card">
-          <h3>Preconstruction Services</h3>
+          <i class="fa-solid fa-pen-ruler icon fa-4x"></i>
+          <h3 class="h3-service">Preconstruction Services</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
         <div class="col-lg-4 service-card">
-          <h3>Construction Project Management</h3>
+          <i class="fa-solid fa-helmet-safety icon fa-4x"></i>
+          <h3 class="h3-service">Construction Project Management</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
       </div>
     </section>
 
+<!-- Background -->
+
+    <section id="background">
+      <i class="fa-solid fa-user-tie icon fa-9x"></i>
+      <h3 class="h3-background">William D. Kraft</h3>
+      <p class="p-background">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non arcu risus quis varius quam. Blandit turpis cursus in hac habitasse platea. Nisl pretium fusce id velit.  </p>
+
+
+    </section>
     <section id="footer">
+
+      <div class="footer">
+        <div>
+          <a class="footer-link" href="index.html">Home</a>
+          <a class="footer-link" href="services.html">Services</a>
+          <a class="footer-link" href="about.html">About</a>
+          <a class="footer-link" href="projects.html">Projects</a>
+          <a class="footer-link" href="contact-us.html">Contact Us</a>
+        </div>
+        <div>
+          <p>Nazareth, PA  |  Telephone: 610-365-8236  |  Email: contact-us@kbridgedev.com</p>
+        </div>
+      </div>
 
     </section>
   </body>
@@ -138,14 +170,5 @@
   </html>
 
   </body>
-
-
-
-
-
-
-
-
-
 
   </html>
