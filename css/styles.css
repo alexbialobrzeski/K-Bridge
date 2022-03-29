@@ -1,0 +1,178 @@
+/* Scarlet #b85042
+Light Olive #e7e8d1
+Light Teal #a7beae
+Dark Green #5F7464*/
+
+body{
+font-family: 'Red Hat Display';
+color: #5F7464;
+background-color: #e7e8d1;
+
+}
+h2{
+  text-align: center;
+  padding-top:5%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h3{
+
+}
+
+#title{
+  background-color: #e7e8d1;
+  padding:5% 5% 8%;
+  color: #5F7464;
+}
+
+/* Navbar */
+
+.home-navbar-brand{
+font-family: 'Red Hat Display';
+font-weight: bold;
+font-size: 2rem;
+color: #5F7464;
+padding-left: 8%;
+}
+.home-navbar-brand:hover{
+  color: #5F7464;
+}
+.navbar-nav{
+  font-family: 'Red Hat Display';
+  font-size: 1.5rem;
+}
+
+.nav-item{
+padding: 10px;
+}
+
+.nav-link{
+  color: #5F7464;
+}
+.nav-link:hover{
+  color: #5F7464;
+}
+
+.active{
+  color: #5F7464;
+}
+.active:hover{
+  color: #5F7464;
+}
+
+.navbar-toggler-icon {
+  color: #5F7464;
+  border-color: #5F7464;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+
+/* Title */
+
+.title-paragraph{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 15% 5%;
+  color: #5F7464;
+}
+
+.title-carousel{
+  padding-top: 5%;
+}
+
+/* Services Section */
+
+#services{
+background-color: #5F7464;
+color: #e7e8d1;
+
+}
+
+.service-section{
+  padding: 5%;
+
+}
+.service-card{
+  text-align: center;
+  padding: 0 5% 5% 5%;
+
+}
+
+.icon{
+ color: #e7e8d1;
+}
+
+.h3-service{
+  padding: 6% 0 5% 0;
+}
+
+/* Projects Section */
+
+#projects{
+  background-color: #e7e8d1;
+  color: #5F7464;
+  padding: 0 5% 5% 5%;
+}
+
+.h2-projects{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.card{
+
+  background-color: #e7e8d1;
+  border: none;
+  width: 90%;
+  align-items: center;
+  padding: 8% 0;
+}
+
+.card-image{
+
+}
+
+/* Meet the Owner */
+
+#background{
+  background-color: #5F7464;
+  color: #e7e8d1;
+  padding: 5%;
+  text-align: center;
+}
+
+.fa-user-tie{
+  color: #b85042;
+}
+
+.h3-background{
+  padding: 5%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.p-background{
+  font-size: 1.5rem;
+  padding: 0 5%;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #5F7464;
+  color: #e7e8d1;
+  text-align: center;
+  padding:0 0 2% 0;
+}
+.footer-link{
+  text-decoration: none;
+  color: #e7e8d1;
+  padding: 1.5rem;
+}
+
+.footer-link:hover{
+  color: #b85042;
+}
